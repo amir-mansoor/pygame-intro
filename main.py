@@ -17,7 +17,7 @@ HEALTH_FONT = pygame.font.SysFont("comicsans",40)
 WINNER_FONT = pygame.font.SysFont("comicsans",100)
 FPS = 60
 VEL = 5
-BULLET_VEL = 7
+BULLET_VEL = 7 # 7
 MAX_BULLETS = 3
 SPACESHIP_WIDTH, SPACESHIP_HEIGHT = 55,40
 YELLOW_HIT = pygame.USEREVENT + 1
@@ -101,8 +101,8 @@ def main():
     yellow = pygame.Rect(100,300,SPACESHIP_WIDTH,SPACESHIP_HEIGHT)
     red_bullets = []
     yellow_bullets = []
-    red_health = 10
-    yellow_health = 10
+    red_health = 15
+    yellow_health = 15
 
     clock = pygame.time.Clock()
     run = True
